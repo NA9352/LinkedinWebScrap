@@ -10,8 +10,8 @@ import json
 global data
 data = []
 
-linkedin_username = "nikitasomani0304@gmail.com"
-linkedin_password = "Nikita@9352"
+linkedin_username = ""
+linkedin_password = ""
 
 s = Service('https://my.shell.com/:u:/r/personal/nikita_n_agrawal_shell_com/Documents/Documents/Data%20Science/WebScrap/chromedriver.exe')
 driver = webdriver.Chrome(service=s)
