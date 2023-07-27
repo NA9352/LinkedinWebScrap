@@ -2,8 +2,8 @@ from linkedin_scraper import Person, actions
 from selenium import webdriver
 
 
-email = "nikitasomani0304@gmail.com"
-password = "Nikita@9352"
+email = ""
+password = ""
 
 driver = webdriver.Chrome()
 
