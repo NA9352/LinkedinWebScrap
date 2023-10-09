@@ -10,7 +10,7 @@ import json
 linkedin_username = ""
 linkedin_password = ""
 
-s = Service('https://my.shell.com/:u:/r/personal/nikita_n_agrawal_shell_com/Documents/Documents/Data%20Science/WebScrap/chromedriver.exe')
+s = Service('') #locate chromedrive.exe
 driver = webdriver.Chrome(service=s)
 driver.get("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin")
 sleep(6)
